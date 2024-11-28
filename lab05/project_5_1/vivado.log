@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Oct  8 02:42:32 2021
+# Process ID: 14464
+# Current directory: C:/Users/artem/.Xilinx/project_5_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17644 C:\Users\artem\.Xilinx\project_5_1\project_5_1.xpr
+# Log file: C:/Users/artem/.Xilinx/project_5_1/vivado.log
+# Journal file: C:/Users/artem/.Xilinx/project_5_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/artem/.Xilinx/project_5_1/project_5_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 709.105 ; gain = 95.195
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Oct  8 08:53:16 2021] Launched synth_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Oct  8 08:55:35 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct  8 08:57:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Oct  8 09:01:32 2021] Launched synth_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Oct  8 09:02:16 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Oct  8 09:05:16 2021] Launched synth_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Oct  8 09:15:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct  8 09:18:04 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_5_1/project_5_1.runs/impl_1/runme.log
+close_project
+open_project C:/Users/artem/.Xilinx/project_5_2/project_5_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/artem/.Xilinx/project_5_4/project_5_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/artem/.Xilinx/project_5_4/project_5_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_5_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/artem/.Xilinx/project_5_4/project_5_4.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj lab_5_4_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/artem/.Xilinx/project_5_4/project_5_4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/artem/.Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c337b6b39b3f47f484faa3368b6203ef --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot lab_5_4_TB_behav xil_defaultlib.lab_5_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/artem/.Xilinx/project_5_4/project_5_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_5_4_TB_behav -key {Behavioral:sim_1:Functional:lab_5_4_TB} -tclbatch {lab_5_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source lab_5_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_5_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1717.148 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/artem/.Xilinx/project_5_2/project_5_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/artem/.Xilinx/project_5_2/project_5_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_5_2_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/artem/.Xilinx/project_5_2/project_5_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj lab_5_2_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/artem/.Xilinx/project_5_2/project_5_2.srcs/sources_1/new/lab_5_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lab_5_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/artem/.Xilinx/project_5_2/project_5_2.srcs/sim_1/new/lab_5_2_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lab_5_2_TB'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/artem/.Xilinx/project_5_2/project_5_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/artem/.Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f88fece3110b4e5287ebd7e268850f16 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot lab_5_2_TB_behav xil_defaultlib.lab_5_2_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.lab_5_2 [lab_5_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab_5_2_tb
+Built simulation snapshot lab_5_2_TB_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/artem/.Xilinx/project_5_2/project_5_2.sim/sim_1/behav/xsim/xsim.dir/lab_5_2_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Oct  8 11:59:48 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1717.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/artem/.Xilinx/project_5_2/project_5_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_5_2_TB_behav -key {Behavioral:sim_1:Functional:lab_5_2_TB} -tclbatch {lab_5_2_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source lab_5_2_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_5_2_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1717.148 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1717.148 ; gain = 0.000
+close_project
+open_project C:/Users/artem/.Xilinx/project_5_1/project_5_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  8 12:03:20 2021...

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep 20 16:14:02 2021
+# Process ID: 18196
+# Current directory: C:/Users/artem/.Xilinx/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18940 C:\Users\artem\.Xilinx\project_2\project_2.xpr
+# Log file: C:/Users/artem/.Xilinx/project_2/vivado.log
+# Journal file: C:/Users/artem/.Xilinx/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/artem/.Xilinx/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab_2_1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/artem/.Xilinx/project_2/project_2.srcs/constrs_1/new/lab_2_4_.xdc]
+set_property is_enabled true [get_files  C:/Users/artem/.Xilinx/project_2/project_2.srcs/constrs_1/new/lab_2_1.xdc]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1

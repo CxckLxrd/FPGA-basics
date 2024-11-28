@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep 20 16:32:28 2021
+# Process ID: 2412
+# Current directory: C:/Users/artem/.Xilinx/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19804 C:\Users\artem\.Xilinx\project_2\project_2.xpr
+# Log file: C:/Users/artem/.Xilinx/project_2/vivado.log
+# Journal file: C:/Users/artem/.Xilinx/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/artem/.Xilinx/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/artem/.Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:08 . Memory (MB): peak = 714.203 ; gain = 108.574
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Sep 20 16:33:09 2021] Launched impl_1...
+Run output will be captured here: C:/Users/artem/.Xilinx/project_2/project_2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 20 22:06:43 2021...
